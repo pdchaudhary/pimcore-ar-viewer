@@ -45,7 +45,7 @@ pimcore.plugin.PimcoreARPreviewerBundlePlugin = Class.create({
                 'model/x3d+binary',     // .x3db
                 'model/x3d+vrml'        // .x3dv
             ];
-           console.log(asset.data);
+     
             if(type == "unknown" && SUPPORTED_MIME_TYPES.includes(asset.data.mimetype)){
                 
                 asset.tabbar.insert(0, new pdchaudhary.element.arPreviewer(asset, "asset").getLayout());
