@@ -1,0 +1,44 @@
+{
+    "name": "pdchaudhary/pimcore-ar-viewer",
+    "description": "A tool for previewing 3D Augmented Reality (AR) models directly within the Pimcore platform. Supports formats like GLB, USDZ, and OBJ, allowing users to interact with models in real-time",
+    "type": "pimcore-bundle",
+    "require": {
+        "pimcore/pimcore": ">=10.0",
+        "php": ">=8.0"
+    },
+    "keywords": [
+        "pimcore",
+        "pimcore-plugin",
+        "marketplace",
+        "e-commerce",
+        "augmented-reality",
+        "AR-preview",
+        "3D-models",
+        "AR-viewer",
+        "pimcore-ar",
+        "3D-assets",
+        "AR",
+        "AR-integration"
+      ],
+    "homepage": "https://pravinchaudhary.com",
+    "autoload": {
+        "psr-4": {
+          "Pdchaudhary\\PimcoreARPreviewerBundle\\": "src/PimcoreARPreviewerBundle"
+        }
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Pravin Chaudhary",
+            "email": "pdchaudhary1998@gmail.com"
+        }
+    ],
+    "extra": {
+        "pimcore": {
+          "bundles": [
+            "Pdchaudhary\\PimcoreARPreviewerBundle\\PimcoreARPreviewerBundle"
+          ]
+        }
+    },
+    "minimum-stability": "dev"
+}
